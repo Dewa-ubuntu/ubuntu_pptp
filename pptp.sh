@@ -56,7 +56,7 @@ post-down iptables-restore < /etc/iptables.down.rules
 EOF
 
 cat >/etc/ppp/chap-secrets <<END
-test pptpd test *
+zul * 426639 *
 END
 
 service pptpd restart
